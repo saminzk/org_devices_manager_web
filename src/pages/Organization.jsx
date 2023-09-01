@@ -20,14 +20,14 @@ const Organization = () => {
   // }
 
   // console.log(handleBtnClick());
-  const handleClick = () => {
+  const handleBtnClick = () => {
     console.log("clicked");
     dispatch(fetchOrganization());
   };
   return (
     <>
       <Button
-        onClick={handleClick}
+        onClick={handleBtnClick}
         style={{ justifyContent: "center" }}
         variant="contained"
         sx={{ margin: 5 }}

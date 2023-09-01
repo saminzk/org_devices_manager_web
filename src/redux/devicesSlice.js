@@ -11,7 +11,6 @@ export const fetchDevices = createAsyncThunk(
   "devices/fetchDevices",
   async () => {
     const response = await axios.get("http://localhost:8080/devices");
-    console.log("response------------", response.data);
     return response.data;
   }
 );
