@@ -8,6 +8,7 @@ import "./App.css";
 import Home from "./pages/Home";
 import Devices from "./pages/Devices";
 import Organization from "./pages/Organization";
+import Login from "./pages/Login";
 
 // import {Route,Routes,useNavigate} from 'react-router-dom'
 function App() {
@@ -30,6 +31,7 @@ function App() {
         <Route path="/home" element={<Home />}></Route>
         <Route path="/organization" element={<Organization />} />
         <Route path="/devices" element={<Devices />}></Route>
+        <Route path="/login" element={<Login/>}/>
       </Routes>
     </>
   );
